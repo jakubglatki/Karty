@@ -1,0 +1,9 @@
+﻿  Karty.c
+d:\jakub głatki\pk c lab\karty\karty\karty.c(11): warning C4013: niezdefiniowany "free"; przy założeniu, że extern zwraca int
+d:\jakub głatki\pk c lab\karty\karty\karty.c(20): warning C4013: niezdefiniowany "srand"; przy założeniu, że extern zwraca int
+d:\jakub głatki\pk c lab\karty\karty\karty.c(20): warning C4013: niezdefiniowany "time"; przy założeniu, że extern zwraca int
+d:\jakub głatki\pk c lab\karty\karty\karty.c(23): warning C4013: niezdefiniowany "malloc"; przy założeniu, że extern zwraca int
+d:\jakub głatki\pk c lab\karty\karty\karty.c(23): warning C4047: "=": "int *" różni się w poziomach operatorów pośrednich od "int"
+d:\jakub głatki\pk c lab\karty\karty\karty.c(39): warning C4013: niezdefiniowany "rand"; przy założeniu, że extern zwraca int
+d:\jakub głatki\pk c lab\karty\karty\karty.c(114): warning C4554: "|": sprawdź ustawienie pierwszeństwa operatora w poszukiwaniu możliwych błędów; użyj nawiasów, aby wyjaśnić ustawienie pierwszeństwa
+  Karty.vcxproj -> D:\Jakub Głatki\PK C lab\Karty\Debug\Karty.exe
