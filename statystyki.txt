@@ -1,0 +1,15 @@
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 2
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 2
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 4
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 5
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 3
