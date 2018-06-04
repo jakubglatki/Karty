@@ -1,2 +1,3 @@
 ﻿  Karty.c
+d:\jakub głatki\pk c lab\karty\karty\karty.c(53): warning C4013: niezdefiniowany "game"; przy założeniu, że extern zwraca int
   Karty.vcxproj -> D:\Jakub Głatki\PK C lab\Karty\Debug\Karty.exe
