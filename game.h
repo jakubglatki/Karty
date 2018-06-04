@@ -1,5 +1,5 @@
-#ifndef FIELD_H
-#define FIELD_H
+#ifndef GAME_H
+#define GAME_H
 
 // Funkcja sprawdzaj¹ca, czy u¿ytkownikowi uda³o siê odgadn¹æ jendakowe pola, 
 // oraz czy odkry³ prawid³owe pola
