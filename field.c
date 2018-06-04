@@ -51,7 +51,7 @@ void printField(int row, int column, int **status, int **field, int r1, int r2, 
 	for (int i = 1;i <= column;i++)
 	{
 		if (i < 10) {
-			printf("---");
+			printf("---");       
 		}
 		else {
 			printf("----");
@@ -62,7 +62,7 @@ void printField(int row, int column, int **status, int **field, int r1, int r2, 
 		printf("%d|", j + 1);
 		for (int k = 0;k < column;k++) {
 			if ((j == r1) && (k == c1)) {
-				if (field[r1][c1] < 10) {
+				if (field[r1][c1] < 10) {            //w zale¿noœci od tego, czy liczba jest jedno, czy dwócyfrowa s¹ ró¿ne przerwy
 					printf(" %d ", field[r1][c1]);
 				}
 				else printf(" %d", field[r1][c1]);

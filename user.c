@@ -30,8 +30,8 @@ int getNumber()
 
 void chosing(int *r1, int *r2, int *c1, int *c2, int row, int column) {
 	int check = 1;
-	while (check == 1) {
-		check = 0;
+	while (check == 1) {       //kiedy u¿ytkownik poda jedn¹ z danych nieprawid³owo, to zaczyna wypisywaæ wszystkie
+		check = 0;             //od pocz¹tku
 		printf("\n\n\t Wybierz rzad pierwszego pola: ");
 		*r1 = getNumber();
 		if (*r1 < 1 || *r1>row) {

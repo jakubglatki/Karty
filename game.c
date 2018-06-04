@@ -3,6 +3,9 @@
 #include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "user.h"
+#include "utility.h"
+#include "field.h"
 
 void checking(int **field, int **status, int *r1, int *r2, int *c1, int *c2) {
 	if (*r1 == *r2 && *c1 == *c2) {
