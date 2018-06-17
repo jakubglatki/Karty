@@ -28,34 +28,34 @@ int getNumber()
 }
 
 
-void chosing(int *r1, int *r2, int *c1, int *c2, int row, int column) {
+void chosing(int *row1, int *row2, int *column1, int *column2, int row, int column) {
 	int check = 1;
 	while (check == 1) {       //kiedy u¿ytkownik poda jedn¹ z danych nieprawid³owo, to zaczyna wypisywaæ wszystkie
 		check = 0;             //od pocz¹tku
 		printf("\n\n\t Wybierz rzad pierwszego pola: ");
-		*r1 = getNumber();
-		if (*r1 < 1 || *r1>row) {
+		*row1 = getNumber();
+		if (*row1 < 1 || *row1>row) {
 			printf("\n\n\t Wybrano nieprawidlowy rzad");
 			check = 1;
 			continue;
 		}
 		printf("\n\t Wybierz kolumne pierwszego pola: ");
-		*c1 = getNumber();
-		if (*c1 < 1 || *c1>column) {
+		*column1 = getNumber();
+		if (*column1 < 1 || *column1>column) {
 			printf("\n\n\t Wybrano nieprawidlowa kolumne");
 			check = 1;
 			continue;
 		}
 		printf("\n\t Wybierz rzad drugiego pola: ");
-		*r2 = getNumber();
-		if (*r2 < 1 || *r2>row) {
+		*row2 = getNumber();
+		if (*row2 < 1 || *row2>row) {
 			printf("\n\n\t Wybrano nieprawidlowy rzad");
 			check = 1;
 			continue;
 		}
 		printf("\n\t Wybierz kolumne drugiego pola: ");
-		*c2 = getNumber();
-		if (*c2 < 1 || *c2>column) {
+		*column2 = getNumber();
+		if (*column2 < 1 || *column2>column) {
 			printf("\n\n\t Wybrano nieprawidlowa kolumne");
 			check = 1;
 			continue;

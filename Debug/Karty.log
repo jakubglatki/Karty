@@ -1,5 +1,6 @@
-﻿  utility.c
+﻿  user.c
+d:\jakub głatki\pk c lab\karty\karty\user.c(91): warning C4013: niezdefiniowany "system"; przy założeniu, że extern zwraca int
+  main.c
   game.c
-  Karty.c
   Generowanie kodu...
   Karty.vcxproj -> D:\Jakub Głatki\PK C lab\Karty\Debug\Karty.exe
