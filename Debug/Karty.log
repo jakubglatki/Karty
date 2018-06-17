@@ -1,2 +1,5 @@
 ﻿  main.c
+d:\jakub głatki\pk c lab\karty\karty\main.c(3): warning C4603: _CRTDBG_MAP_ALLOC: makro jest niezdefiniowane lub definicja różni się po użyciu prekompilowanego nagłówka
+  d:\jakub głatki\pk c lab\karty\karty\main.c(3): note: Dodaj makro do prekompilowanego nagłówka, zamiast definiować go w tym miejscu
+  d:\jakub głatki\pk c lab\karty\karty\main.c(4): note: użyj prekompilowanego nagłówka
   Karty.vcxproj -> D:\Jakub Głatki\PK C lab\Karty\Debug\Karty.exe
