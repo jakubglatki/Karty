@@ -67,22 +67,22 @@ void chosing(int *row1, int *row2, int *column1, int *column2, int row, int colu
 }
 
 
-void takeData(int *f_row, int *f_col) {
+void takeData(int *f_row, int *f_column) {
 	int ok = 0;
 	while (ok != 1) {
 		printf("\n\n\t Liczba wierszy: ");
 		*f_row = getNumber();
 		printf("\n\n\t Liczba kolmun: ");
-		*f_col = getNumber();
+		*f_column = getNumber();
 
-		if (*f_row <= 1 || *f_col <= 1) {
+		if (*f_row <= 1 || *f_column <= 1) {
 			printf("\n\n\n\t Liczba kolumn i wierszy musi byc wieksza niz 1\n");
 
 		}
-		else if (*f_row >= 9 || *f_col >= 9) {
+		else if (*f_row >= 9 || *f_column >= 9) {
 			printf("\n\n\n\t Liczba kolumn i wierszy musi byc mniejsza niz 9\n");
 		}
-		else if ((*f_row * *f_col) % 2 != 0) {
+		else if ((*f_row * *f_column) % 2 != 0) {
 			printf("\n\n\n\t Liczba pol musi byc parzysta(musisz wybrac parzysta liczbe wierszy i/lub kolumn)\n");
 			continue;
 		}

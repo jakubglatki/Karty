@@ -25,3 +25,18 @@ Liczba ruchow potrzebna do ukonczenia gry: 12
 Liczba kolumn: 2
 Liczba wierszy: 3
 Liczba ruchow potrzebna do ukonczenia gry: 6
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 2
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 3
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 2
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 3
+Liczba kolumn: 2
+Liczba wierszy: 2
+Liczba ruchow potrzebna do ukonczenia gry: 2

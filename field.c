@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define SIZE 10 //przy wiêkszych liczbach wizualna czêœæ programu jest wyœwietlana inaczej
+
 void shuffle(int **field, int row, int column)
 {
 	srand((unsigned)time(NULL));
@@ -50,7 +52,7 @@ void printField(int row, int column, int **status, int **field, int r1, int r2, 
 	printf("\n \t  ");
 	for (int i = 1;i <= column;i++)
 	{
-		if (i < 10) {
+		if (i < SIZE) {
 			printf("---");       
 		}
 		else {
@@ -62,19 +64,19 @@ void printField(int row, int column, int **status, int **field, int r1, int r2, 
 		printf("%d|", j + 1);
 		for (int k = 0;k < column;k++) {
 			if ((j == r1) && (k == c1)) {
-				if (field[r1][c1] < 10) {            //w zale¿noœci od tego, czy liczba jest jedno, czy dwócyfrowa s¹ ró¿ne przerwy
+				if (field[r1][c1] < SIZE) {            //w zale¿noœci od tego, czy liczba jest jedno, czy dwócyfrowa s¹ ró¿ne przerwy
 					printf(" %d ", field[r1][c1]);
 				}
 				else printf(" %d", field[r1][c1]);
 			}
 			else if ((j == r2) && (k == c2)) {
-				if (field[r2][c2] < 10) {
+				if (field[r2][c2] < SIZE) {
 					printf(" %d ", field[r2][c2]);
 				}
 				else printf(" %d", field[r2][c2]);
 			}
 			else if (status[j][k] == 1) {
-				if (field[j][k] < 10) {
+				if (field[j][k] < SIZE) {
 					printf(" %d ", field[j][k]);
 				}
 				else printf(" %d", field[j][k]);
